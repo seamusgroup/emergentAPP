@@ -1,0 +1,20 @@
+Starting project at /app/frontend
+env: load .env
+env: export WDS_SOCKET_PORT REACT_APP_BACKEND_URL
+Starting Metro Bundler
+warning: Bundler cache is empty, rebuilding (this may take a minute)
+The following packages should be updated for best compatibility with the installed expo version:
+  @react-native-async-storage/async-storage@1.24.0 - expected version: 1.21.0
+  react-native@0.73.4 - expected version: 0.73.6
+Your project may not work correctly until you install the correct versions of the packages.
+Waiting on http://localhost:8081
+Logs for your project will appear below.
+Error: ENOSPC: System limit for number of file watchers reached, watch '/app/frontend/node_modules/react-native-paper/lib/commonjs/components/Portal'
+    at FSWatcher.<computed> (node:internal/fs/watchers:247:19)
+    at Object.watch (node:fs:2491:36)
+    at NodeWatcher._watchdir (/app/frontend/node_modules/metro-file-map/src/watchers/NodeWatcher.js:89:24)
+    at /app/frontend/node_modules/metro-file-map/src/watchers/NodeWatcher.js:26:14
+    at Walker.<anonymous> (/app/frontend/node_modules/metro-file-map/src/watchers/common.js:81:31)
+    at Walker.emit (node:events:524:28)
+    at /app/frontend/node_modules/walker/lib/walker.js:69:16
+    at FSReqCallback.oncomplete (node:fs:188:23)
