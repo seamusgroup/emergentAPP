@@ -10,10 +10,6 @@ import LoginScreen from './src/screens/LoginScreen';
 import EmployeeDashboard from './src/screens/EmployeeDashboard';
 import ManagerDashboard from './src/screens/ManagerDashboard';
 import SuperAdminDashboard from './src/screens/SuperAdminDashboard';
-import EmployeeAttendance from './src/screens/EmployeeAttendance';
-import ManagerEmployees from './src/screens/ManagerEmployees';
-import ManagerAttendance from './src/screens/ManagerAttendance';
-import ManagerReports from './src/screens/ManagerReports';
 
 // Import theme
 import { theme } from './src/theme/theme';
@@ -36,10 +32,6 @@ export default function App() {
             <Stack.Screen name="EmployeeDashboard" component={EmployeeDashboard} />
             <Stack.Screen name="ManagerDashboard" component={ManagerDashboard} />
             <Stack.Screen name="SuperAdminDashboard" component={SuperAdminDashboard} />
-            <Stack.Screen name="EmployeeAttendance" component={EmployeeAttendance} />
-            <Stack.Screen name="ManagerEmployees" component={ManagerEmployees} />
-            <Stack.Screen name="ManagerAttendance" component={ManagerAttendance} />
-            <Stack.Screen name="ManagerReports" component={ManagerReports} />
           </Stack.Navigator>
         </NavigationContainer>
       </PaperProvider>
