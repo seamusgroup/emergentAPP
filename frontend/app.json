@@ -47,7 +47,6 @@
       "expo-camera",
       "expo-local-authentication",
       "expo-notifications",
-      "expo-sqlite",
       [
         "expo-build-properties",
         {
