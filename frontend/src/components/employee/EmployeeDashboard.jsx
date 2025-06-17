@@ -24,6 +24,7 @@ const EmployeeDashboard = () => {
   const [location, setLocation] = useState(null);
   const [isOnline, setIsOnline] = useState(true);
   const [showCamera, setShowCamera] = useState(false);
+  const [pendingAction, setPendingAction] = useState(null);
   
   const company = COMPANIES.find(c => c.id === CURRENT_USER.companyId);
   const settings = company?.settings || {};
